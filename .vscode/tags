@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+07_convnet_mnist.py	../07_convnet_mnist.py	1;"	kind:file	line:1
+07_convnet_mnist_starter.py	../07_convnet_mnist_starter.py	1;"	kind:file	line:1
+ConvNet	../07_convnet_mnist.py	/^class ConvNet(object):$/;"	kind:class	line:53
+ConvNet	../07_convnet_mnist_starter.py	/^class ConvNet(object):$/;"	kind:class	line:51
+DataSet	../mnist2/mnist.py	/^class DataSet(object):$/;"	kind:class	line:106
+SOURCE_URL	../mnist2/mnist.py	/^SOURCE_URL = 'https:\/\/storage.googleapis.com\/cvdf-datasets\/mnist\/'$/;"	kind:variable	line:32
+__init__	../07_convnet_mnist.py	/^    def __init__(self):$/;"	kind:member	line:54
+__init__	../07_convnet_mnist_starter.py	/^    def __init__(self):$/;"	kind:member	line:52
+__init__	../mnist2/mnist.py	/^  def __init__(self,$/;"	kind:member	line:108
+__init__.py	../mnist2/__init__.py	1;"	kind:file	line:1
+_read32	../mnist2/mnist.py	/^def _read32(bytestream):$/;"	kind:function	line:35
+build	../07_convnet_mnist.py	/^    def build(self):$/;"	kind:member	line:136
+build	../07_convnet_mnist_starter.py	/^    def build(self):$/;"	kind:member	line:128
+conv_relu	../07_convnet_mnist.py	/^def conv_relu(inputs, filters, k_size, stride, padding, scope_name):$/;"	kind:function	line:16
+conv_relu	../07_convnet_mnist_starter.py	/^def conv_relu(inputs, filters, k_size, stride, padding, scope_name):$/;"	kind:function	line:16
+convert_to_mnist_format.py	../convert_to_mnist_format.py	1;"	kind:file	line:1
+dense_to_one_hot	../mnist2/mnist.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	kind:function	line:69
+download_mnist	../utils.py	/^def download_mnist(path):$/;"	kind:function	line:68
+download_one_file	../utils.py	/^def download_one_file(download_url, $/;"	kind:function	line:41
+dstPath	../convert_to_mnist_format.py	/^dstPath = "convert_MNIST"$/;"	kind:variable	line:62
+epochs_completed	../mnist2/mnist.py	/^  def epochs_completed(self):$/;"	kind:member	line:175
+eval	../07_convnet_mnist.py	/^    def eval(self):$/;"	kind:member	line:127
+eval	../07_convnet_mnist_starter.py	/^    def eval(self):$/;"	kind:member	line:119
+eval_once	../07_convnet_mnist.py	/^    def eval_once(self, sess, init, writer, epoch, step):$/;"	kind:member	line:169
+eval_once	../07_convnet_mnist_starter.py	/^    def eval_once(self, sess, init, writer, epoch, step):$/;"	kind:member	line:160
+extract_images	../mnist2/mnist.py	/^def extract_images(f, channels=1):$/;"	kind:function	line:40
+extract_labels	../mnist2/mnist.py	/^def extract_labels(f, one_hot=False, num_classes=10):$/;"	kind:function	line:78
+f1	../utils.py	/^    def f1(): return 0.5 * tf.square(residual)$/;"	kind:function	line:15
+f2	../utils.py	/^    def f2(): return delta * residual - 0.5 * tf.square(delta)$/;"	kind:function	line:16
+fake	../mnist2/mnist.py	/^    def fake():$/;"	kind:function	line:234
+fully_connected	../07_convnet_mnist.py	/^def fully_connected(inputs, out_dim, scope_name='fc'):$/;"	kind:function	line:40
+fully_connected	../07_convnet_mnist_starter.py	/^def fully_connected(inputs, out_dim, scope_name='fc'):$/;"	kind:function	line:39
+get_data	../07_convnet_mnist.py	/^    def get_data(self):$/;"	kind:member	line:65
+get_data	../07_convnet_mnist_starter.py	/^    def get_data(self):$/;"	kind:member	line:62
+get_labels_and_files	../convert_to_mnist_format.py	/^def get_labels_and_files(folder, number=0):$/;"	kind:function	line:79
+get_mnist_dataset	../utils.py	/^def get_mnist_dataset(batch_size):$/;"	kind:function	line:121
+get_subdir	../convert_to_mnist_format.py	/^def get_subdir(folder):$/;"	kind:function	line:69
+height	../convert_to_mnist_format.py	/^height = 0$/;"	kind:variable	line:59
+huber_loss	../utils.py	/^def huber_loss(labels, predictions, delta=14.0):$/;"	kind:function	line:13
+images	../mnist2/mnist.py	/^  def images(self):$/;"	kind:member	line:163
+inference	../07_convnet_mnist.py	/^    def inference(self):$/;"	kind:member	line:77
+inference	../07_convnet_mnist_starter.py	/^    def inference(self):$/;"	kind:member	line:74
+labels	../mnist2/mnist.py	/^  def labels(self):$/;"	kind:member	line:167
+load_mnist	../mnist2/mnist.py	/^def load_mnist(train_dir='MNIST-data'):$/;"	kind:function	line:288
+loss	../07_convnet_mnist.py	/^    def loss(self):$/;"	kind:member	line:98
+loss	../07_convnet_mnist_starter.py	/^    def loss(self):$/;"	kind:member	line:85
+main	../convert_to_mnist_format.py	/^def main(argv):$/;"	kind:function	line:184
+make_arrays	../convert_to_mnist_format.py	/^def make_arrays(labelsAndFiles, ratio):$/;"	kind:function	line:111
+maxpool	../07_convnet_mnist.py	/^def maxpool(inputs, ksize, stride, padding='VALID', scope_name='pool'):$/;"	kind:function	line:31
+maxpool	../07_convnet_mnist_starter.py	/^def maxpool(inputs, ksize, stride, padding='VALID', scope_name='pool'):$/;"	kind:function	line:28
+mnist.py	../mnist2/mnist.py	1;"	kind:file	line:1
+model	../07_convnet_mnist.py	/^    model = ConvNet()$/;"	kind:variable	line:208
+model	../07_convnet_mnist_starter.py	/^    model = ConvNet()$/;"	kind:variable	line:198
+next_batch	../mnist2/mnist.py	/^  def next_batch(self, batch_size, fake_data=False, shuffle=True):$/;"	kind:member	line:178
+num_examples	../mnist2/mnist.py	/^  def num_examples(self):$/;"	kind:member	line:171
+optimize	../07_convnet_mnist.py	/^    def optimize(self):$/;"	kind:member	line:109
+optimize	../07_convnet_mnist_starter.py	/^    def optimize(self):$/;"	kind:member	line:98
+parse_data	../utils.py	/^def parse_data(path, dataset, flatten):$/;"	kind:function	line:86
+read_birth_life_data	../utils.py	/^def read_birth_life_data(filename):$/;"	kind:function	line:26
+read_data_sets	../mnist2/mnist.py	/^def read_data_sets(train_dir,$/;"	kind:function	line:223
+read_mnist	../utils.py	/^def read_mnist(path, flatten=True, num_train=55000):$/;"	kind:function	line:107
+safe_mkdir	../utils.py	/^def safe_mkdir(path):$/;"	kind:function	line:19
+show	../utils.py	/^def show(image):$/;"	kind:function	line:137
+summary	../07_convnet_mnist.py	/^    def summary(self):$/;"	kind:member	line:117
+summary	../07_convnet_mnist_starter.py	/^    def summary(self):$/;"	kind:member	line:109
+testImagePath	../convert_to_mnist_format.py	/^testImagePath = dstPath+"\/t10k-images-idx3-ubyte"$/;"	kind:variable	line:64
+testLabelPath	../convert_to_mnist_format.py	/^testLabelPath = dstPath+"\/t10k-labels-idx1-ubyte"$/;"	kind:variable	line:63
+train	../07_convnet_mnist.py	/^    def train(self, n_epochs):$/;"	kind:member	line:185
+train	../07_convnet_mnist_starter.py	/^    def train(self, n_epochs):$/;"	kind:member	line:175
+trainImagePath	../convert_to_mnist_format.py	/^trainImagePath = dstPath+"\/train-images-idx3-ubyte"$/;"	kind:variable	line:66
+trainLabelPath	../convert_to_mnist_format.py	/^trainLabelPath = dstPath+"\/train-labels-idx1-ubyte"$/;"	kind:variable	line:65
+train_one_epoch	../07_convnet_mnist.py	/^    def train_one_epoch(self, sess, saver, init, writer, epoch, step):$/;"	kind:member	line:147
+train_one_epoch	../07_convnet_mnist_starter.py	/^    def train_one_epoch(self, sess, saver, init, writer, epoch, step):$/;"	kind:member	line:139
+utils.py	../utils.py	1;"	kind:file	line:1
+width	../convert_to_mnist_format.py	/^width = 0$/;"	kind:variable	line:60
+write_imagedata	../convert_to_mnist_format.py	/^def write_imagedata(imagedata, outputfile):$/;"	kind:function	line:176
+write_labeldata	../convert_to_mnist_format.py	/^def write_labeldata(labeldata, outputfile):$/;"	kind:function	line:170
